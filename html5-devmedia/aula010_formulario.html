@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <style>
+        header{
+            background-color: blueviolet;
+            color: white;
+        }
+
+        h1{
+            color: blueviolet;
+        }
+
+        button{
+            background-color: blueviolet;
+            color: white;
+        }
+
+        footer{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Questionário
+    </header>
+
+    <main>
+        <h1>Questionário</h1>
+        <p>Responda o questionário abaixo marcando as opções que correspondem as suas preferências por jogos.</p>
+        <form action="" model="">
+            <p>Quais plataformas de jogos você utiliza?</p>
+            <input type="checkbox" name="plataforma[]" value="xbox" id="xbox"> <label for="xbox">Xbox</label> <br>
+            <input type="checkbox" name="plataforma[]" value="playstation" id="playstation"> <label for="playstation">PlayStation</label> <br>
+            <input type="checkbox" name="plataforma[]" value="switch" id="switch"> <label for="switch">Switch</label> <br>
+            <input type="checkbox" name="plataforma[]" value="stadia" id="stadia"> <label for="stadia">Stadia</label> <br>
+            <input type="checkbox" name="plataforma[]" value="pc" id="pc"> <label for="pc">PC</label> <br>
+
+            <p>Quais seus gêneros de jogo preferidos?</p>
+            <input type="checkbox" name="genero[]" value="ação" id="ação"> <label for="ação">Ação</label> <br>
+            <input type="checkbox" name="genero[]" value="genero" id="aventura"> <label for="aventura">Aventura</label> <br>
+            <input type="checkbox" name="genero[]" value="plataforma" id="plataforma"> <label for="plataforma">Plataforma</label> <br>
+            <input type="checkbox" name="genero[]" value="rpg" id="rpg"> <label for="rpg">RPG</label> <br>
+            <input type="checkbox" name="genero[]" value="tiro" id="tiro"> <label for="tiro"></label> <label for="tiro">Tiro</label> <br>
+            <input type="checkbox" name="genero[]" value="corrida" id="corrida"> <label for="corrida">Corrida</label> <br>
+            <br>
+            <button type="submit">Enviar Questionário</button>
+        </form>
+        <footer>
+            <p>Copyright 2022 - Questionário</p>
+        </footer>
+    </main>
+</body>
+</html>

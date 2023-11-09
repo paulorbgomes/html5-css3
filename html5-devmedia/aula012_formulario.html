@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <style>
+        header{
+            color: white;
+            background-color: darkorange;
+        }
+
+        h1{
+            color: darkorange;
+        }
+
+        button{
+            color: white;
+            background-color: darkorange;
+            text-align: center;
+        }
+
+        footer{
+            color: white;
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>MedCompany</p>
+    </header>
+
+    <main>
+        <h1>Formulário de exame</h1>
+        <p>Preencha o formulário abaixo com suas informações:</p>
+        <form action="" method="">
+            <label for="">Nome</label> <br>
+            <input type="text" name="nome"> <br><br>
+            <label for="">Data de Nascimento</label> <br>
+            <input type="date" name="nascimento"> <br><br>
+            <label for="">Email</label> <br>
+            <input type="email" name="email" placeholder="email@provedor.com"> <br>
+            <p>Você possui tatuagem?</p>
+            <input type="radio" name="tatuagem" value="sim" id="sim"> <label for="sim">Sim</label> <br>
+            <input type="radio" name="tatuagem" value="nao" id="nao"> <label for="nao">Não</label>
+            <p>Última vez que doou sangue?</p>
+            <input type="radio" name="doação" value="6 meses" id="6meses"> <label for="6meses">Nos últimos 6 meses</label> <br>
+            <input type="radio" name="doaçao" value="1anooumais" id="1ano"> <label for="1ano">Há 1 ano ou mais</label> <br>
+            <input type="radio" name="doacao" value="nunca" id="nunca"> <label for="nunca">Nunca doei sangue</label>
+            <br><br>
+            <button type="submit">Enviar Formulário</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright 2022 - MedCompany</p>
+    </footer>
+
+</body>
+</html>
