@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <style>
+        header{
+            background-color:deeppink;
+            color: white;
+        }
+
+        button{
+            color: white;
+            background-color: deeppink;
+        }
+
+        footer{
+            color:white;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>Vagas - Desenvolvedores</p>
+    </header>
+
+    <main>
+        <form action="" model="">
+        <p>Preencha o formulário abaixo com suas informações.</p>
+        <label for="">Nome</label> <br>
+        <input type="text" name="nome"> <br><br>
+        <label for="">Data de Nascimento</label> <br>
+        <input type="date" name="dataNascimento"> <br><br>
+        <label for="">Email</label> <br>
+        <input type="email" name="email" placeholder="email@provedor.com"> <br><br>
+        <label for="">Estado</label> <br>
+        <select name="estados" id="">
+            <option value="">Selecione seu estado</option>
+            <option value="acre">Acre</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="amapá">Amapá</option>
+            <option value="amazonas">Amazonas</option>
+            <option value="bahia">Bahia</option>
+            <option value="ceará">Ceará</option>
+            <option value="distrito federal">Distrito Federal</option>
+            <option value="espírito santo">Espírito Santo</option>
+            <option value="goias">Goiás</option>
+            <option value="maranhão">Maranhão</option>
+            <option value="mato grosso">Mato Grosso</option>
+            <option value="mato grosso do sul">Mato Grosso do Sul</option>
+            <option value="minas gerais">Minas Gerais</option>
+            <option value="pará">Pará</option>
+            <option value="paraíba">Paraíba</option>
+            <option value="paraná">Paraná</option>
+            <option value="pernambuco">Pernambuco</option>
+            <option value="piauí">Piauí</option>
+            <option value="rio de janeiro">Rio de Janeiro</option>
+            <option value="rio grande do norte">Rio Grande do Norte</option>
+            <option value="rio grande do sul">Rio Grande do Sul</option>
+            <option value="rondônia">Rondônia</option>
+            <option value="roraima">Roraima</option>
+            <option value="santa catarina">Santa Catarina</option>
+            <option value="são paulo">São Paulo</option>
+            <option value="sergipe">Sergipe</option>
+            <option value="tocantins">Tocantins</option>
+        </select> <br><br>
+        <label for="">Tecnologias</label> <br>
+        <select name="tecnologias[]" id="" size="6" multiple>
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+            <option value="c#">C#</option>
+            <option value="html">HTML</option>
+            <option value="java">Java</option>
+            <option value="javascript">Javascript</option>
+            <option value="php">PHP</option>
+            <option value="python">Python</option>
+            <option value="ruby">Ruby</option>
+            <option value="xml">XML</option>
+        </select>
+        <br><br>
+        <button type="submit">Enviar Formulário</button>
+        </form>
+    </main>
+    <br>
+
+    <footer>
+        Copyright 2022 - VagasDev
+    </footer>
+</body>
+</html>
