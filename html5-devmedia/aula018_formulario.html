@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <style>
+        header{
+            color: white;
+            background-color: blue;
+        }
+
+        h1{
+            color: blue;
+        }
+
+        button{
+            color: white;
+            background-color: blue;
+        }
+
+        footer{
+            color: white;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>Revista</p>
+    </header>
+
+    <main>
+        <h1>Cadastro</h1>
+        <p>Estamos lançando uma nova revista e enviaremos o primeiro exemplar grátis para todos que se cadastrarem hoje no site.</p>
+        <form action="" method="">
+            <fieldset>
+                <legend>Dados de contato</legend>
+                <label for="">Nome:</label> <br>
+                <input type="text" name="nome" placeholder="Digite seu nome completo"> <br><br>
+                <label for="">Email:</label> <br>
+                <input type="email" placeholder="exemplo@email.com"> <br><br>
+                <label for="">Telefone:</label> <br>
+                <input type="tel" name="telefone"> <br><br>
+                <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX"> <br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Dados de entrega</legend>
+                <label for="">Endereço:</label> <br>
+                <input type="text" name="endereço" placeholder="Rua, Avenida, Travessa ..."> <br><br>
+                <label for="">Número:</label> <br>
+                <input type="text" name="número"> <br><br>
+                <label for="" name="complemento">Complemento:</label> <br>
+                <input type="text" name="complemento"> <br><br>
+            </fieldset>
+            <br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright 2022 - Revista</p>
+    </footer>
+
+</body>
+</html>
