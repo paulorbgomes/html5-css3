@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    font: 'Tahoma';
+}
+
+div {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+p {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px
+}
+
+span {
+    font-weight: bold;
+}
+
+#secao01 {
+    background-color: #afddfb;
+}
+
+#secao01 img {
+    width: 150px;
+}
+
+#secao01 p {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#secao01 a {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#secao02 {
+    margin-top: 50px;
+    padding-top: 0px;
+}
+
+#secao03 h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+#secao03 h2 {
+    color: #1c81c0;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+#secao03 img {
+    width: 450px;
+}
+
+#secao03 span {
+    color: #1d80c1;
+}
+
+#secao04 {
+    background-color: #1d80c1;
+    color: #ffffff;
+}
+
+#secao04 h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+#secao04 p {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+
+#secao04 span {
+    color: #fff81b;
+}
+
+#secao04 ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 135px;
+}
+
+#secao04 li {
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+#secao05 h2 {
+    color: #1c81c0;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+#secao05 img {
+    width: 450px;
+}
+
+#secao05 span {
+    color: #1d80c1;
+}
+
+#secao06 {
+    background-color: #1d80c1;
+    color: #ffffff;
+}
+
+#secao06 h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+#secao06 iframe {
+    width: 50%;
+}
+
+#secao06 p {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#secao06 span {
+    color: #fff81b;
+}
+
+#secao06 ul {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 210px;
+    margin-left: auto;
+}
+
+#secao06 li {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#secao06 a {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
