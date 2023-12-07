@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classe: Estado</title>
+    <style>
+        .itens {
+            color: green;
+            font-size: 24px;
+        }
+
+        .itens:visited {
+            color: red;
+        }
+
+        .bloco {
+            width: 300px;
+            height: 100px;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .link {
+            background-color: white;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        .link:hover {
+            background-color: #2b077a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bloco">
+        <a class="link" href="">Sinopse</a>
+        <a class="link" href="">Disponibilidade</a>
+    </div>
+
+    <div class="lista">
+        <ul>
+            <li><a class="itens" href="">Xbox Game Studios</a></li>
+            <li><a class="itens" href="">Bethesda Game Studios</a></li>
+            <li><a class="itens" href="">Ubisoft</a></li>
+            <li><a class="itens" href="">PlayStation Studios</a></li>
+            <li><a class="itens" href="">Nitendo</a></li>
+            <li><a class="itens" href="">EA Games</a></li>
+            <li><a class="itens" href="">Konami</a></li>
+            <li><a class="itens" href="">Sega</a></li>
+            <li><a class="itens" href="">Square-Enix</a></li>
+            <li><a class="itens" href="">Devolver Digital</a></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
