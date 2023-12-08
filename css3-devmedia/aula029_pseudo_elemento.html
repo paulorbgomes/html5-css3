@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elemento</title>
+    <style>
+        a {
+            display: block;
+        }
+
+        a::before { /* before | after */
+            content: "Link"; 
+            background-color: red;
+            color: white;
+            padding: 0px 10px;
+            margin: 6px 6px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lista de estúdios de jogos</h1>
+    <p>Confira abaixo uma lista com os links de alguns dos estúdios de jogos mais conhecidos da indústria:</p>
+
+    <a href="#">343 Industries</a>
+    <a href="#">The Initiative</a>
+    <a href="#">Naughty Dog</a>
+    <a href="#">Ubisoft</a>
+    <a href="#">Bioware</a>
+    <a href="#">Respawn</a>
+    
+</body>
+</html>
