@@ -1,0 +1,18 @@
+body {
+  height: 300px;
+  margin: 0;
+}
+
+div {
+  background: teal;
+  width: 50%;
+  height: 50%;
+
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightcoral;
+  border: 5px dotted black;
+  padding: 5px 10px 0 20px;
+  margin: 20px;
+  display: inline-block;
+}
