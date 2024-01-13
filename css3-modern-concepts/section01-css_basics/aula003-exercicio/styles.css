@@ -1,0 +1,14 @@
+h1 {
+  color: teal;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline overline solid teal 5px;
+}
+
+p {
+  background: teal;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}

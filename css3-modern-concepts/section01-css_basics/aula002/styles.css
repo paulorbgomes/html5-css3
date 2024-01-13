@@ -1,0 +1,51 @@
+* {
+  color: blue;
+}
+
+.description {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+h1 {
+  background: #5fcfcf;
+  color: rgb(0, 0, 255);
+  font-family: "Verdana";
+  font-size: 28px;
+  text-align: center;
+
+  /*text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 5px;*/
+
+  text-decoration: underline red dotted 5px;
+
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 2;
+}
+
+li {
+  color: olive;
+}
+
+.chocolate {
+  color: brown;
+}
+
+#maple-syrup {
+  color: gold;
+}
+
+[type="button"] {
+  color: red;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
