@@ -1,5 +1,5 @@
 @media screen and (max-width: 1015px) {
-  .header_search {
+  .header__search {
     /* display: none !important; */
     width: auto !important;
     display: none;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width: 1016px) and (max-width: 1140px) {
-  .header_search {
+  .header__search {
     /* display: none !important; */
     width: auto !important;
     display: none;
@@ -42,11 +42,11 @@
     width: 342px;
   }
 
-  .offer_list-item {
+  .offer__list-item {
     grid-template-columns: 1fr;
   }
 
-  .offer_scroll-container {
+  .offer__scroll-container {
     overflow-y: visible;
   }
 }

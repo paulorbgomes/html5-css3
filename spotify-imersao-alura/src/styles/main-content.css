@@ -28,7 +28,7 @@ table, table-row, table-cell: Esses valores de display são usados para criar la
 
 none: Um elemento com display: none é completamente removido do fluxo de layout e não é renderizado na tela.
 */
-.header_navigation {
+.header__navigation {
   display: flex;
   /* ESSES detalhes que tem dentro do display flex, mostra no navegador como fica */
   justify-content: space-between;
@@ -40,13 +40,13 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   /* padding: 12px; */
 }
 
-.header_navigation .navigation {
+.header__navigation .navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.header_navigation .navigation .arrow-left {
+.header__navigation .navigation .arrow-left {
   margin-right: 1.25rem;
 }
 
@@ -64,12 +64,12 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   cursor: pointer;
 }
 
-.header_login {
+.header__login {
   display: flex;
   align-items: center;
 }
 
-.header_search {
+.header__search {
   display: flex;
   align-items: center;
   width: 364px;
@@ -80,13 +80,13 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   border: 1px solid transparent;
 }
 
-.header_search img {
+.header__search img {
   width: 16px;
   height: 16px;
   margin-left: 10px;
 }
 
-.header_search input {
+.header__search input {
   background: transparent;
   border: none;
   padding: 0px 100px 0 12px;
@@ -98,7 +98,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   white-space: nowrap;
 }
 
-.header_login .subscribe {
+.header__login .subscribe {
   color: var(--text-sub);
   font-size: 16px;
   font-weight: 700;
@@ -106,7 +106,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   margin-right: 32px;
 }
 
-.header_login .login {
+.header__login .login {
   width: 100px;
   height: 48px;
   color: var(--text-base-dark);
@@ -117,16 +117,16 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 /* HOVER */
 
-.header_search:hover {
+.header__search:hover {
   border: 1px solid #fff;
 }
 
-.header_login .subscribe:hover {
+.header__login .subscribe:hover {
   transform: scale(1.04);
   color: var(--text-base-light);
 }
 
-.header_login .login:hover {
+.header__login .login:hover {
   transform: scale(1.04);
 }
 /* FIM HOVER */
@@ -160,22 +160,22 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 }
 
 /* SCROLL */
-.offer_scroll-container {
+.offer__scroll-container {
   max-height: 43vh;
   margin: 24px;
   overflow-y: auto;
 }
 
-.offer_scroll-container::-webkit-scrollbar {
+.offer__scroll-container::-webkit-scrollbar {
   width: 1px;
 }
 
-.offer_scroll-container::-webkit-scrollbar-thumb {
+.offer__scroll-container::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
 /* FIM SCROLL */
 
-.offer_list-item {
+.offer__list-item {
   /* display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -262,7 +262,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 }
 /* FIM COLOR CARDS */
 
-.offer_list-item img {
+.offer__list-item img {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -382,20 +382,3 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   padding: 20px 40px;
 }
 /* FIM CARD ARTISTA */
-
-.offer_list-item {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 16px;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-
-.cards {
-  position: relative;
-  width: 220px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 8px;
-}
