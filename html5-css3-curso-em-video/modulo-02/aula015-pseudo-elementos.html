@@ -6,11 +6,34 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Pseudo-Elementos</title>
     <style>
-        
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(255, 0, 0);
+        }
+
+        a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(0, 255, 0);
+        }
+
+        a::after {
+            content: " [link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+        }
     </style>
 </head>
 <body>
     <h1>Pseudo-Elementos em CSS</h1>
-    
+
+    <p>Link: <a href="https://www.google.com/" target="_blank">Acesso ao Google</a></p>
 </body>
 </html>
