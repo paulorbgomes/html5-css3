@@ -73,3 +73,22 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}

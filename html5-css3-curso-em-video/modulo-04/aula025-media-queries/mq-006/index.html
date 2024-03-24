@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="./estilos/style.css" />
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <h1>Meu Site</h1>
       <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
@@ -85,6 +85,14 @@
                 itens.style.display = "none";
             } else {
                 itens.style.display = "block";
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = "block";
+            } else {
+                itens.style.display = "none";
             }
         }
     </script>
