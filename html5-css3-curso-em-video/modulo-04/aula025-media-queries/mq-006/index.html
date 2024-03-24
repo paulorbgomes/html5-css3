@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../imagens/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Media Queries</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./estilos/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+      <menu id="itens">
+        <ul>
+          <li><a href="#">Opção 1</a></li>
+          <li><a href="#">Opção 2</a></li>
+          <li><a href="#">Opção 3</a></li>
+          <li><a href="#">Opção 4</a></li>
+          <li><a href="#">Opção 5</a></li>
+        </ul>
+      </menu>
+    </header>
+
+    <main>
+      <article>
+        <h2>Testando Media Queries</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          omnis odio, fugiat amet quas et sint laudantium totam in laboriosam
+          ratione sapiente nam saepe voluptatum enim non velit beatae
+          cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Dignissimos vitae voluptates, perspiciatis eius distinctio modi,
+          possimus perferendis a laborum sapiente quae aliquam quos quidem harum
+          porro ab ut praesentium ex? Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Unde, facilis aperiam! Possimus vitae tempora
+          debitis nostrum officiis sint magnam similique aliquid voluptas amet
+          natus delectus adipisci, asperiores fuga velit corporis?
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
+          optio ipsam perspiciatis deleniti labore laudantium animi, iusto et!
+          Animi dolores quaerat perspiciatis aliquam ex esse iste, rem dolor
+          vitae optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magnam quos aliquam pariatur magni suscipit ducimus aut, eius atque
+          temporibus perferendis excepturi dolorum doloribus? Suscipit modi odio
+          hic, repellendus provident alias? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Minus reiciendis, quam doloribus atque
+          nulla, voluptatibus mollitia eum, reprehenderit eos ratione nemo ex.
+          Repellendus nobis quos pariatur a commodi, perspiciatis sapiente?
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+          neque accusantium nesciunt dolore nam, reprehenderit porro, animi
+          facere ipsa quas sapiente numquam minus itaque natus earum. Earum
+          quidem alias corporis. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Reiciendis autem nesciunt ea cupiditate dolorem
+          ratione quisquam, laudantium itaque, mollitia voluptatum sint vitae
+          nulla dolor quis consequatur? Tenetur consequuntur modi eveniet? Lorem
+          ipsum dolor sit amet consectetur, adipisicing elit. Iste consequuntur
+          voluptas eveniet non id? Animi aliquid cupiditate recusandae officiis
+          aliquam, inventore ab ex blanditiis, error a minus reprehenderit
+          asperiores ducimus! Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Amet sunt dolorum similique voluptatem distinctio
+          veritatis molestias vitae quae sapiente incidunt atque cupiditate,
+          deleniti suscipit aperiam facilis praesentium et vel officia.
+        </p>
+      </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none";
+            } else {
+                itens.style.display = "block";
+            }
+        }
+    </script>
+  </body>
+</html>
