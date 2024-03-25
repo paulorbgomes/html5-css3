@@ -7,3 +7,4 @@
   4. [HTML5 e CSS3: Técnicas Avançadas (com Flexbox) - Matheus Battisti](https://www.udemy.com/course/html5-e-css3-tecnicas-avancadas-com-flexbox-e-3-projetos/)
   5. [Core Concepts of Modern CSS 2024](https://www.udemy.com/course/core-concepts-of-modern-css/)
   6. [HTML5 e CSS3 - Curso em Vídeo - Módulos I ao V](https://www.cursoemvideo.com/cursos/)
+  7. [CSS Flexbox: Revisão Completa - Otávio Miranda](https://www.youtube.com/watch?v=3C7v3S-tnFw)
