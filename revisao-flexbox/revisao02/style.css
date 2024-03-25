@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;           /* main axis */
+    justify-content: flex-start;   /* main axis */
+    align-items: space-around;     /* cross axis */
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: lightgray;
+    height: 500px;
+}
+
+.flex-item {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+    background-color: lightgreen;
+    margin: 30px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
