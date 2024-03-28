@@ -15,17 +15,46 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   background-color: darkgray;
   color: white;
   padding: 10px;
 }
 
 header > h1 {
-  border: 1px dotted black;
+  /* border: 1px dotted black; */
+  color: black;
+  flex: 0 0 200px;
 }
 
 header > nav {
-  border: 1px dotted black;
+  /* border: 1px dotted black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header > nav > a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+header > nav > a:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s;
 }
 
 main {
