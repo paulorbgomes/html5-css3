@@ -9,3 +9,4 @@
   6. [HTML5 e CSS3 - Curso em Vídeo - Módulos I ao V](https://www.cursoemvideo.com/cursos/)
   7. [CSS Flexbox: Revisão Completa - Otávio Miranda](https://www.youtube.com/watch?v=3C7v3S-tnFw)
   8. [CSS Flexbox - Otávio Miranda](https://www.youtube.com/watch?v=uHiSYokteNY)
+  9. [CSS Grid: Revisão Completa - Otávio Miranda](https://www.youtube.com/watch?v=R_dqkhX7WbU)
